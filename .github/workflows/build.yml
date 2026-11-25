@@ -30,6 +30,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web
+      # GitHub sometimes needs a moment before the uploaded site can be published.
+      - run: sleep 15
       - id: deploy
         uses: actions/deploy-pages@v4
 

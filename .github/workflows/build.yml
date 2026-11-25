@@ -1,6 +1,7 @@
 name: Build and publish
 
-# Web version on GitHub Pages, Android version as NextStopLondon.apk in the latest release.
+# Web version on GitHub Pages (hazz25.github.io/NextStopLondon), Android version as
+# NextStopLondon.apk in the latest release.
 on:
   push:
     branches: [main]
